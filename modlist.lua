@@ -1,5 +1,4 @@
-local premdata = {
-350167333
-  
+premdata = {
+[350167333] = true,
 }
 return premdata;
