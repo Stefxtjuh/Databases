@@ -17,7 +17,7 @@ local formatNumber = (function(n)
     return n:reverse():gsub("%d%d%d", "%1,"):reverse():gsub("^,", "")
 end)
 
-local function checkswag()
+local function CheckEmoji()
     for i,v in pairs(game:GetService('Workspace').Players:GetChildren()) do
         if v:FindFirstChild('UpperTorso') then
             if not v:FindFirstChild('UpperTorso'):FindFirstChild('OriginalSize') then
@@ -52,4 +52,4 @@ local function checkswag()
     end
 end
 
-local succ, errr = pcall(checkswag)
+local succ, errr = pcall(CheckEmoji)
