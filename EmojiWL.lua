@@ -1,5 +1,5 @@
 local owner = {
-  350167333
+  350167333,
 }
 
 local admin = {
