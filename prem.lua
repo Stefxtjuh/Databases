@@ -1,7 +1,8 @@
 local PremStarData = {
- --[[[2834470639] = true,]] -- hecate
+ [350167333] = true,-- hecate
 }
 
+--[[
 local PremStarLegendData = {
 [587438679] = true, --jaroah
 }
@@ -38,4 +39,6 @@ local function loademoji()
     end
 end
 
-local succ, errr = pcall(loademoji)
+local succ, errr = pcall(loademoji)]] 
+ 
+ return PremStarData;
