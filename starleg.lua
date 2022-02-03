@@ -6,7 +6,7 @@ local privateXD = {
 
 
 
-local function starlegend()
+local function privateXDD()
 	for i,v in pairs(game.Players:GetChildren()) do
   	if table.find(privateXD,v.UserId) then
 			if v.Character then
@@ -16,5 +16,5 @@ local function starlegend()
 	end
 end
 
-local success,err = pcall(starlegend)
+local success,err = pcall(privateXDD)
  
