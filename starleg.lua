@@ -18,3 +18,4 @@ end
 
 local success,err = pcall(privateXDD)
  
+return privaterXD;
