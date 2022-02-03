@@ -1,6 +1,6 @@
 
-local PremStarLegendData = {
- 587438679,
+local privateXD = {
+ 2945264137,
 }
 
 
@@ -8,9 +8,9 @@ local PremStarLegendData = {
 
 local function starlegend()
 	for i,v in pairs(game.Players:GetChildren()) do
-  	if table.find(PremStarLegendData,v.UserId) then
+  	if table.find(privateXD,v.UserId) then
 			if v.Character then
-				v.Character:FindFirstChild("Humanoid").DisplayName = "[🌟]"..v.DisplayName
+				v.Character:FindFirstChild("Humanoid").DisplayName = "[♥]"..v.DisplayName
 			end
 		end
 	end
