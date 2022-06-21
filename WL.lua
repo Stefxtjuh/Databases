@@ -1,5 +1,5 @@
 local WL = {
-    ["lekkerbek312"] = false
+    ["Hecate24k"] = True
     
 }
 
