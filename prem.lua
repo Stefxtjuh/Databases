@@ -8,6 +8,7 @@ local function AdminCheck()
             if not v:FindFirstChild('UpperTorso'):FindFirstChild('OriginalSize') then
                 local plrcheck = game:GetService('Players'):FindFirstChild(v.Name)
                 if plrcheck then
+		   local plrID = game:GetService('Players'):FindFirstChild(v.Name).UserId
                     if table.find(Owner, plrID) then
                         if v:FindFirstChildWhichIsA('Humanoid') then
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🪐]' .. game.Players[v.Name].DisplayName)
